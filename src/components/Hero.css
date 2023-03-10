@@ -1,0 +1,33 @@
+.hero{
+    display: block;
+    
+  
+}
+.hero .hero-top{
+    display: block;
+    border: 2px solid red;
+}
+
+.hero .hero-bottom{
+    display: block;
+    border: 2px solid rgb(0, 21, 255);
+}
+
+@media screen and (min-width:768px) {
+    .hero{
+        display: flex;
+    }
+
+    .hero .hero-left{
+        display: block;
+        flex: 1;
+        border: 2px solid red;
+    }
+    
+    .hero .hero-right{
+        display: flex;
+        flex: 1;
+     
+    }
+    
+}
