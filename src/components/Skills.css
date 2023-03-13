@@ -1,0 +1,107 @@
+
+.skills{
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.skills {
+  display: block;
+
+}
+.skills p{
+  display: flex;
+  width: 98vw;
+  flex-wrap: wrap;
+  justify-content: start;
+  color: rgba(118, 111, 111, 0.733);
+  font-family: 'Lato', sans-serif;
+
+}
+.skills .oop{
+
+
+  align-items: center;
+  width: 95vw;
+  border: 2px solid rgba(95, 89, 89, 0.525);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 2px;
+  border-left: 4px solid rgb(0, 255, 251);
+
+}
+
+.skills .backend{
+  
+
+  align-items: center;
+  border: 2px solid rgba(95, 89, 89, 0.525);
+  margin-top: 10px;
+  width: 95vw;
+
+  margin-left: 2px;
+  border-left: 4px solid rgb(0, 255, 251);
+
+  border-radius: 10px;
+}
+.skills .frontend{
+
+
+  align-items: center;
+  border: 2px solid rgba(95, 89, 89, 0.525);
+  margin-top: 10px;
+  width: 95vw;
+
+  margin-left: 2px;
+  border-left: 4px solid rgb(0, 255, 251);
+  border-radius: 10px;
+}
+
+.skill-card{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  
+}
+.skill-card:hover{
+  cursor: pointer;
+  scale: 1.5;
+  
+}
+
+
+@media screen and (min-width:768px){
+  .skills{
+    display: flex;
+  
+    width: 95vw;
+    flex-wrap: wrap;
+  }
+ .skills .icons{
+  display: flex;
+  margin-left: 400px;
+  gap: 2rem;
+
+
+
+
+} 
+.skills .oop{
+  display: flex;
+
+  width: 95vw;
+
+}
+
+.skills .backend{
+  display: flex;
+
+  width: 95vw;
+}
+.skills .frontend{
+  display: flex;
+  width: 95vw;
+}
+
+
+}

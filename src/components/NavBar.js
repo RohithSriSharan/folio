@@ -3,7 +3,7 @@ import './NavBar.css'
 import {useState , useEffect} from 'react'
 import { CgMenu } from 'react-icons/cg';
 import {AiOutlineClose } from 'react-icons/ai';
-
+import { Link } from 'react-scroll'
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [ismobile, setIsMobile] = useState(false)
@@ -46,10 +46,14 @@ const NavBar = () => {
             ):(
                 <div className='desktop-menu'>
                     <ul>
-                        <li>About</li>
-                        <li>Skills</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
+                        <Link spy={true} smooth={true} to='About'><li>About</li></Link>
+                        <Link spy={true} smooth={true} to='Skills'><li>Skills</li></Link>
+                        <Link spy={true} smooth={true} to='Projects'><li>Projects</li></Link>
+                        <Link spy={true} smooth={true} to='Contact'><li>Contact</li></Link>
+                        
+                        
+                        
+       
                     </ul>
                 </div>
             )
@@ -60,10 +64,10 @@ const NavBar = () => {
     {ismobile && isOpen &&(
         <div className='mobile-menu'>
             <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <Link spy={true} smooth={true} to='About'><li onClick={handleMobileMenu}>About</li></Link>
+            <Link spy={true} smooth={true} to='Skills'><li onClick={handleMobileMenu} >Skills</li></Link>
+            <Link spy={true} smooth={true} to='Projects'><li onClick={handleMobileMenu} >Projects</li></Link>
+            <Link spy={true} smooth={true} to='Contact'><li onClick={handleMobileMenu} >Contact</li></Link>
             </ul>
         </div>
     )}

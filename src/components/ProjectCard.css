@@ -1,0 +1,32 @@
+.project-card{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid ;
+    width: 300px;
+    height: 400px;
+    margin: 2px;
+    margin-top: 10px;
+}
+.project-card img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+    margin: 3px;
+    border-radius: 10px;
+}
+.project-card .project-card-icon{
+    display: none;
+}
+.project-card:hover .project-card-icon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 270px;
+    position: absolute;
+    margin-top: 28px;
+    scale: 2;
+    gap: 0.5rem;
+}
+.about-project{
+    padding:5px ;
+}
+

@@ -1,0 +1,141 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+}
+.contact .contact-left{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.contact .contact-left p{
+    width: 90%;
+    margin-top: -10px;
+    }
+.contact .contact-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact .contact-right :nth-child(1){
+    display: flex;
+    width: 95vw;
+    height: 40px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.contact .contact-right :nth-child(2){
+    display: flex;
+    width: 95vw;
+    height: 40px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.contact .contact-right :nth-child(3){
+    display: flex;
+    width: 95vw;
+    height: 80px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    resize: none;
+    border-radius: 10px;
+
+}
+.contact .contact-right :nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 40px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 183, 255);
+    margin-bottom: 10px;
+    border-right:2px solid rgb(0, 183, 255) ;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px){
+    .contact{
+        display: flex;
+        
+        width: 95vw;
+        flex-direction: row;
+        height: 50vh;
+    }
+    .contact .contact-left{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .contact .contact-right {
+        display: flex;
+       flex: 1;
+       flex-direction: column;
+    
+    }
+    .contact .contact-right :nth-child(1){
+        display: flex;
+    
+        width: 90%;
+        height: 50px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        border-radius: 10px;
+    
+    }
+    .contact .contact-right :nth-child(2){
+        display: flex;
+     
+        width: 90%;
+        height: 50px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        border-radius: 10px;
+    
+    }
+    .contact .contact-right :nth-child(3){
+        display: flex;
+ 
+        width: 90%;
+        height: 90px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        resize: none;
+        border-radius: 10px;
+    
+    }
+    .contact .contact-right :nth-child(4){
+        display: block;
+        justify-content: start;
+        align-items: center;
+        width: 90px;
+        height: 40px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        resize: none;
+        border-radius: 10px;
+        border: none;
+        border-bottom: 2px solid rgb(0, 183, 255);
+        margin-bottom: 10px;
+        border-right:2px solid rgb(0, 183, 255) ;
+        font-weight: bold;
+    }
+    .contact .contact-left p{
+        width: 50%;
+        margin-top: -10px;
+        font: bolder;
+        scale: 1.3;
+        }
+}

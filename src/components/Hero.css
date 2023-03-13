@@ -1,27 +1,88 @@
+
 .hero{
     display: block;
-    
-  
+   
+    width: 98vw;
+    height: 100vh;
 }
 .hero .hero-top{
-    display: block;
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
+.hero .hero-top :nth-child(1){
+    position: absolute;
+    margin-top: -80px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.hero .hero-top :nth-child(2){
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
 
 .hero .hero-bottom{
+
     display: block;
-    border: 2px solid rgb(0, 21, 255);
+
 }
 
+
+.hero .hero-top :nth-child(2){
+    color: rgba(118, 111, 111, 0.733);
+    font-family: 'Lato', sans-serif;
+}
+.hero .hero-top :nth-child(1){
+
+    font-family: 'Lato', sans-serif;
+
+}
+.hero button{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 190px;
+    height: 30px;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid ;
+    border-right: 2px solid;
+    border-color: rgb(0, 255, 251);
+    font-weight: bold;
+
+}
 @media screen and (min-width:768px) {
     .hero{
         display: flex;
+        height: 644px;
+        width: 95vw;
+       
     }
 
+   
     .hero .hero-left{
-        display: block;
-        flex: 1;
-        border: 2px solid red;
+        margin-top: 450px;
+         
+    }
+   
+    
+    
+    .hero .hero-left h1{
+        position: absolute;
+        margin-top: -70px;
+
+        font-size: 70px;
+        margin-left: -220px;
+        font-weight: bolder;
+
+    }
+    
+    .hero .hero-left button{
+        margin-left: -550px;
     }
     
     .hero .hero-right{
