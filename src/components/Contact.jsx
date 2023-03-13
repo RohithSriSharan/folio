@@ -3,12 +3,14 @@ import './Contact.css'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+
+
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_a7x3eax', 'template_hd5v90s', form.current, 'dWbEzpT5kHna-cdiL')
+    emailjs.sendForm("service_a7x3eax", "template_hd5v90s", form.current, "dWbEzpT5kHna-cdiL")
       .then((result) => {
           console.log(result.text);
         
@@ -16,6 +18,7 @@ const Contact = () => {
           console.log(error.text);
       });
   };
+  console.log(process.env.CONTACT_SECRET)
   return (
     <div id='Contact' className='contact'>
         <div className='contact-left'>
