@@ -22,7 +22,9 @@ import { useState } from 'react'
 
 
 import { CgChevronRight } from 'react-icons/cg';
-
+import { FaCode } from 'react-icons/fa';
+import { FaServer} from 'react-icons/fa';
+import { RxPencil2 } from 'react-icons/rx';
 const Skills = () => {
   const [showOop , setShowOop] = useState(false)
   const [showFe , setShowFe] = useState(false)
@@ -45,7 +47,7 @@ const Skills = () => {
         emerging technologies to deliver cutting-edge solutions that the ever evolving needs ob bussiness and their customers </p>
 
       <div className='oop'>
-       <div className='text'  onClick={handleShowOop}> <h2><CgChevronRight/> SOMETHING</h2></div>
+       <div className='text'  onClick={handleShowOop}> <h2><CgChevronRight/>  <FaCode/> OOP</h2></div>
        {showOop && (
         <div className='icons'>
         <div className='skill-card'><BallCanvas className='ball' icon={python}/></div>
@@ -56,8 +58,8 @@ const Skills = () => {
     </div>
     
     <div className='backend'>
-      <div className='text' onClick={handleShowFe}> <h2><CgChevronRight/> Back End</h2></div>
-      {showFe&& (
+      <div className='text' onClick={handleShowFe}> <h2><CgChevronRight/> <FaServer/>  Back End</h2></div>
+      {showFe && (
         <div className='icons'>
         <div className='skill-card'><BallCanvas className='ball' icon={mongo}/> </div>
         <div className='skill-card'><BallCanvas className='ball' icon={fastapi}/> </div>
@@ -73,7 +75,7 @@ const Skills = () => {
     </div>
     
       <div className='frontend'> 
-         <div className='text' onClick={handleShowBe}><h2><CgChevronRight/> Front END</h2></div>
+         <div className='text' onClick={handleShowBe}><h2><CgChevronRight/><RxPencil2/> Front END</h2></div>
           {showBe && (
             <div className='icons'>
             <div className='skill-card'><BallCanvas className='ball' icon={react}/></div>

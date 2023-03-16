@@ -5,7 +5,7 @@
   width: 95vw;
   flex-wrap: wrap;
  
-  height: 100%;
+
 
 }
 
@@ -119,6 +119,17 @@
 .skills .frontend{
   display: flex;
   width: 95vw;
+}
+.skills p{
+  display: flex;
+  width: 70vw;
+  flex-wrap: wrap;
+  justify-content: start;
+  font-family: 'Noto Serif Lao', serif;
+  font-weight: bolder;
+  color: rgba(92, 95, 95, 0.774);
+  margin-top: -10px;
+
 }
 
 
