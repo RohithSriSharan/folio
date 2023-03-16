@@ -1,8 +1,8 @@
-
+/* 
 .hero{
     display: block;
    
-    width: 98vw;
+    width: 95vw;
     height: 100vh;
 }
 .hero .hero-top{
@@ -13,39 +13,39 @@
     align-items: center;
 
 }
+
+
+
 .hero .hero-top :nth-child(1){
     position: absolute;
     margin-top: -80px;
-    font-family: 'Montserrat Subrayada', sans-serif;
 }
 .hero .hero-top :nth-child(2){
-    margin-left: 30px;
-    margin-top: 60px;
-}
+    margin-left: 50px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
 
-
-.hero .hero-bottom{
-
-    display: block;
+   
 
 }
+
+
+
 
 
 .hero .hero-top :nth-child(2){
-    color: rgba(118, 111, 111, 0.733);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Serif Lao', serif;
+    font-weight: bolder;
+    color: rgba(92, 95, 95, 0.774);
 }
-.hero .hero-top :nth-child(1){
 
-    font-family: 'Lato', sans-serif;
-
-}
 .hero button{
     color: black;
     background-color: rgb(255, 255, 255);
     border: none;
     width: 190px;
-    height: 30px;
+    height: 50px;
     border-radius: 6px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -53,21 +53,26 @@
     border-right: 2px solid;
     border-color: rgb(0, 255, 251);
     font-weight: bold;
+    color: white;
+    background-color: black;
 
 }
+
+
 @media screen and (min-width:768px) {
     .hero{
         display: flex;
-        height: 644px;
+        height: 98vh;
         width: 95vw;
        
     }
 
    
     .hero .hero-left{
-        margin-top: 450px;
+        margin-top: 350px;
          
     }
+  
    
     
     
@@ -85,10 +90,6 @@
         margin-left: -550px;
     }
     
-    .hero .hero-right{
-        display: flex;
-        flex: 1;
-     
-    }
     
-}
+    
+} */

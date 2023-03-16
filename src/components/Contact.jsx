@@ -2,7 +2,8 @@ import React from 'react'
 import './Contact.css'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import PlanetCanvas from '../canvas/Planet';
+import { Plane } from '@react-three/drei';
 
 
 const Contact = () => {
@@ -21,19 +22,27 @@ const Contact = () => {
   console.log(process.env.CONTACT_SECRET)
   return (
     <div id='Contact' className='contact'>
-        <div className='contact-left'>
-          <h1>Dont be a Stranger!</h1>
-          <p>Got a project in mind?, feedback or just wanna say hi?
-          I'd love to hear from you! Feel free to drop a message.  </p>
-        </div>
-        <div className='contact-right'>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='username' placeholder='Your name'></input>
-          <input type="email" name='user_email' placeholder='Email'></input>
-          <textarea type="text" name="message" placeholder='Your message'></textarea>
-          <button>Submit</button>
+        <div className='planet'>
           
-        </form>
+         <PlanetCanvas/>
+         
+        </div>
+       
+        <div className='contact-right'>
+          <div className='greetings'><h1>Dont be a Stranger!</h1>
+            <p>Got a project in mind?, feedback or just wanna say hi?
+            I'd love to hear from you! Feel free to drop a message.  </p>
+          </div>
+          <div className='forms'>
+            <form ref={form} onSubmit={sendEmail}>
+              <input type="text" name='username' placeholder='Your name'></input>
+              <input type="email" name='user_email' placeholder='Email'></input>
+              <textarea type="text" name="message" placeholder='Your message'></textarea>
+              <button>Submit</button>
+         
+            </form>
+         </div>
+        
         </div>
     </div>
   )

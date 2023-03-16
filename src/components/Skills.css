@@ -1,26 +1,29 @@
 
 .skills{
   display: flex;
-  width: 100vw;
+  flex-direction: column;
+  width: 95vw;
   flex-wrap: wrap;
-}
-
-.skills {
-  display: block;
+ 
+  height: 100%;
 
 }
+
+
 .skills p{
   display: flex;
-  width: 98vw;
+  width: 95vw;
   flex-wrap: wrap;
   justify-content: start;
-  color: rgba(118, 111, 111, 0.733);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Serif Lao', serif;
+  font-weight: bolder;
+  color: rgba(92, 95, 95, 0.774);
+  margin-top: -10px;
 
 }
 .skills .oop{
 
-
+ 
   align-items: center;
   width: 95vw;
   border: 2px solid rgba(95, 89, 89, 0.525);
@@ -28,7 +31,8 @@
   margin-top: 10px;
   margin-left: 2px;
   border-left: 4px solid rgb(0, 255, 251);
-
+  background-color: black;
+  color: white;
 }
 
 .skills .backend{
@@ -43,6 +47,9 @@
   border-left: 4px solid rgb(0, 255, 251);
 
   border-radius: 10px;
+
+  background-color: black;
+  color: white;
 }
 .skills .frontend{
 
@@ -55,24 +62,34 @@
   margin-left: 2px;
   border-left: 4px solid rgb(0, 255, 251);
   border-radius: 10px;
+
+  background-color: black;
+  color: white;
 }
 
 .skill-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   margin: auto;
+
+
   
+
 }
 .skill-card:hover{
   cursor: pointer;
   scale: 1.5;
+
   
 }
 
 
 @media screen and (min-width:768px){
   .skills{
-    display: flex;
+    display: block;
   
     width: 95vw;
     flex-wrap: wrap;
@@ -86,6 +103,7 @@
 
 
 } 
+
 .skills .oop{
   display: flex;
 

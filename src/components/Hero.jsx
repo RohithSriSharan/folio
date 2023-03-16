@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-
+import ComputerCanvas from './Computers'
 
 const Hero = () => {
   return (
@@ -12,7 +12,8 @@ const Hero = () => {
             <button>Download Resume</button>
         </div>
         <div className='hero-right hero-bottom'>
-            
+        
+
         </div>
     </div>
 

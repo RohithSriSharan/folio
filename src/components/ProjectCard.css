@@ -1,32 +1,96 @@
 .project-card{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid ;
-    width: 300px;
+
+    width: 350px;
     height: 400px;
-    margin: 2px;
-    margin-top: 10px;
-}
-.project-card img{
-    width: 300px;
-    height: 200px;
-    border: 2px solid;
-    margin: 3px;
-    border-radius: 10px;
+    justify-content: center;
+    margin-top: 20px;
+
+    
+  
 }
 .project-card .project-card-icon{
     display: none;
+
 }
-.project-card:hover .project-card-icon{
+.project-card .project-card-image{
+    border: 2px solid;
     display: flex;
-    flex-direction: column;
-    margin-left: 270px;
     position: absolute;
-    margin-top: 28px;
-    scale: 2;
-    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width:260px ;
+    height: 200px;
+   margin-bottom: 350px;
+   background-color: black;
+   border-radius:10px ;
 }
-.about-project{
-    padding:5px ;
+.project-card .project-card-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    border: 2px solid;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+.project-card .project-card-info h1{
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
+@media screen and (min-width: 768px) {
+    .project-card{
+        display: flex;
+        flex-wrap: wrap;
+      
+        width: 600px;
+        height: 250px;
+        justify-content: e;
+      
+        margin-left: 50px;      
+      
+    }
+    .project-card .project-card-icon{
+        display: none;
+    
+    }
+    .project-card .project-card-image{
+        border: 2px solid;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width:260px ;
+        height: 200px;
+        margin-top: 20px;
+       margin-left: -350px;
+       background-color: black;
+       border-radius:10px ;
+    }
+    .project-card .project-card-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+   
+        width: 400px;
+        height: 250px;
+      margin-left: 200px;
+        border: 2px solid;
+        margin-bottom: 0px;
+        border-radius: 10px;
+    }
+    .project-card .project-card-info h1{
+        margin-left: 60px;
+       
+    }
+    .project-card .project-card-info p{
+        margin-left: 60px;
+       
+    }
+    
+}

@@ -12,19 +12,23 @@ const ProjectCard = (props) => {
       speed: 450,
     }}
     >
-    <div className='project-card'>
-  
-      <div  className='project-card-icon'>
-        <AiFillGithub/>
-          <VscLinkExternal/>
-      </div>  
-    
-        <img src={props.image}></img>
 
-        <div className='about-project'><h1>{props.title}</h1>
+    <div className='project-card'>
+    <div  className='project-card-icon'>
+        <AiFillGithub/>
+          <VscLinkExternal/> 
+      </div>  
+      <div className='project-card-image'><img src={props.image}></img></div>
+    
+      
+
+        <div className='project-card-info'><h1>{props.title}</h1>
         <p>{props.description}</p></div>
-       
     </div>
+  
+      
+       
+ 
     </Tilt>
   )
 }

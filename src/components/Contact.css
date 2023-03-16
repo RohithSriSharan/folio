@@ -1,141 +1,128 @@
 .contact{
+    display: block;
+    width: 95vw;
+    height: 100vh;
+    margin-bottom: 20px;
+    
+ 
+}
+.contact .planet{
+    display: flex;
+    flex: 1;
+
+    width: 95vw;
+    height: 50vh;
+    margin: auto;
+
+  
+}
+.contact .contact-right{
+    display: block;
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contact .contact-right{
+    width: 95vw;
+    height: 50vw;
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    justify-content: center;
+   
 }
-.contact .contact-left{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+.contact .contact-right .greetings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
 }
-.contact .contact-left p{
-    width: 90%;
-    margin-top: -10px;
-    }
-.contact .contact-right {
+.contact .contact-right .forms form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+.contact .contact-right .forms form input{
+    width: 85vw;
+    height: 40px;
+
+    border-radius: 10px;
+
+}
+.contact .contact-right .forms form textarea{
+    width: 85vw;
+    height: 70px;
+    resize: none;
+    border-radius: 10px;
+  
+}
+.contact .contact-right .forms form button{
+    height: 35px;
+    width: 100px;
+}
+.contact .contact-right p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-
-}
-.contact .contact-right :nth-child(1){
-    display: flex;
-    width: 95vw;
-    height: 40px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    border-radius: 10px;
-
-}
-.contact .contact-right :nth-child(2){
-    display: flex;
-    width: 95vw;
-    height: 40px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    border-radius: 10px;
-
-}
-.contact .contact-right :nth-child(3){
-    display: flex;
-    width: 95vw;
-    height: 80px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    resize: none;
-    border-radius: 10px;
-
-}
-.contact .contact-right :nth-child(4){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 95vw;
-    height: 40px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    resize: none;
-    border-radius: 10px;
-    border: none;
-    border-bottom: 2px solid rgb(0, 183, 255);
-    margin-bottom: 10px;
-    border-right:2px solid rgb(0, 183, 255) ;
-    font-weight: bold;
+    
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
     .contact{
         display: flex;
-        
         width: 95vw;
-        flex-direction: row;
-        height: 50vh;
+        height: 100vh;
+   
     }
-    .contact .contact-left{
+    .contact .contact-right{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-    
-    }
-    .contact .contact-right {
-        display: flex;
-       flex: 1;
-       flex-direction: column;
-    
-    }
-    .contact .contact-right :nth-child(1){
-        display: flex;
-    
-        width: 90%;
-        height: 50px;
-        flex-wrap: wrap;
-        margin-top: 10px;
-        border-radius: 10px;
-    
-    }
-    .contact .contact-right :nth-child(2){
-        display: flex;
-     
-        width: 90%;
-        height: 50px;
-        flex-wrap: wrap;
-        margin-top: 10px;
-        border-radius: 10px;
-    
-    }
-    .contact .contact-right :nth-child(3){
-        display: flex;
- 
-        width: 90%;
-        height: 90px;
-        flex-wrap: wrap;
-        margin-top: 10px;
-        resize: none;
-        border-radius: 10px;
-    
-    }
-    .contact .contact-right :nth-child(4){
-        display: block;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
-        width: 90px;
-        height: 40px;
-        flex-wrap: wrap;
-        margin-top: 10px;
-        resize: none;
-        border-radius: 10px;
-        border: none;
-        border-bottom: 2px solid rgb(0, 183, 255);
-        margin-bottom: 10px;
-        border-right:2px solid rgb(0, 183, 255) ;
-        font-weight: bold;
+       
+      
     }
-    .contact .contact-left p{
-        width: 50%;
-        margin-top: -10px;
-        font: bolder;
-        scale: 1.3;
-        }
+   
+    .contact .planet{
+        display: flex;
+        flex: 1;
+        width: 600px;
+        height: 600px;
+        margin: auto;
+    }
+    .contact .contact-right .greetings{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .contact-right .forms form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    
+    }
+    .contact .contact-right .forms form input{
+
+        height: 50px;
+        width: 600px;
+        border-radius: 10px;
+    }
+    .contact .contact-right .forms form textarea{
+        height: 90px;
+        width: 600px;
+        border-radius: 10px;
+        resize: none;
+    }
+    .contact .contact-right .forms form button{
+        height: 35px;
+        width: 100px;
+    }
 }

@@ -6,14 +6,16 @@ import './Projects.css'
 const Projects = () => {
   return (
     <div className='projects' id='Projects'> 
-    <ProjectCard
-      image = {img}
-      title = "Example Project"
-      description ="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget orci ac mauris rhoncus vestibulum vitae vitae lorem. Duis sit amet felis in nulla interdum semper."
-    />
-   
-  
-  
+   <div className='title'> <h1>Projects</h1></div>
+   <div className='project-cards'>
+   <ProjectCard
+    image = {img}
+   title = "Project Title"
+   description ="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget orci ac mauris rhoncus vestibulum vitae vitae lorem. Duis sit amet felis in nulla interdum semper."
+ />
+
+ 
+</div>
     </div>
   )
 }
