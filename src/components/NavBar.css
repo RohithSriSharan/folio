@@ -1,19 +1,23 @@
-
+body{
+    background-color: #0C072C;
+    color: white;
+}
 
 .navbar{
     display: flex;
+
     
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-   width: 97vw;
-   z-index: 9999;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+   width: 95vw;
+
    top:0;
-    background-color: black;
+
     color: white;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px rgb(0, 213, 255);
+    background-color: #17056ec4;
 }
 .navbar .logo{
     display: flex;
@@ -81,7 +85,7 @@ width:  60px;
     position: absolute;
     top:60px;
     right: 10px;
-    background-color: black;
+    background-color: #2d18b7;
     z-index: 9999;
     height: 100%;
     width: 250px;
@@ -101,12 +105,13 @@ width:  60px;
     justify-content: center;
     align-items: center;
     gap: 5rem;
-   
+
     
     
 }
 .mobile-menu ul li{
     list-style: none;
+  
 
   
 }

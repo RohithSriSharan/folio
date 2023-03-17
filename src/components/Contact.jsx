@@ -29,7 +29,8 @@ const Contact = () => {
         </div>
        
         <div className='contact-right'>
-          <div className='greetings'><h1>Dont be a Stranger!</h1>
+        <div className='wrapper'>
+        <div className='greetings'><h1>Dont be a Stranger!</h1>
             <p>Got a project in mind?, feedback or just wanna say hi?
             I'd love to hear from you! Feel free to drop a message.  </p>
           </div>
@@ -44,6 +45,8 @@ const Contact = () => {
          </div>
         
         </div>
+        </div>
+          
     </div>
   )
 }

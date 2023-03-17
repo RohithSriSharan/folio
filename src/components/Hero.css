@@ -1,9 +1,9 @@
 
 .hero{
     display: block;
-   
     width: 95vw;
     height: 100vh;
+    
 }
 .hero .hero-top{
     display: flex;
@@ -63,7 +63,7 @@
     .hero{
         display: flex;
         height: 98vh;
-        width: 95vw;
+        width: 97vw;
        
     }
 
