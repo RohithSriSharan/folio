@@ -1,6 +1,8 @@
 import React from 'react'
 import './Hero.css'
-import ComputerCanvas from './Computers'
+
+import BirdCanvas from '../canvas/Bird'
+
 
 const Hero = () => {
   return (

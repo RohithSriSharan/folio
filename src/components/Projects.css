@@ -23,6 +23,7 @@
         width: 95vw;
        display: flex;
        flex-wrap: wrap;
+       margin-bottom: 20px;
 
        
     }

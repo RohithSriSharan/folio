@@ -1,7 +1,10 @@
 #About{
     height: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 90vw;
     border-radius:10px ;
     margin: 2px;
@@ -9,43 +12,94 @@
 
 
 }
-.about{
-  width: 95vw;
+.about .about-me{
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto; 
 }
-#About h1{
-    display: flex;
-    padding: 4px;
+.about .about-me p{
+  padding: 15px;
+  font-size: large;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1rem;
+}
+
+.card-1, .card-2, .card-3, .card-4{
   
+  width: 200px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:2rem;
+  background-color: rgba(6, 6, 79, 0.804);
+  border-radius: 15px;
 }
-#About p{
-    margin: 10px;
-
-
-    font-family: 'Noto Serif Lao', serif;
-    font-size: medium;
-   font-weight: bolder;
+.card-1{
+  border: 2px solid rgba(10, 133, 142, 0.772);
 }
+  
+.card-2{
+  border: 2px solid rgba(108, 132, 5, 0.621);
+  }
+.card-3{
+  border: 2px solid rgba(7, 105, 64, 0.733);
+  }
+.card-4{
+  border: 2px solid rgba(131, 13, 60, 0.719);
+  }
+
 
 @media screen and (min-width: 768px){
   #About{
-    height: 100vh;
+    height: 100%;
     width: 95vw;
   }
-  .about{
+  .about .about-me{
     display: flex;
-    flex-direction: column;
+     
+  }
+  .about .about-me h1{
+    display: flex;
+    width:90vw  }
+
+  .about .about-me p{
+    display: flex;
+    width: 60vw;
+     font-size: 25px;
+  }
+  .cards{
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 60%;
-
     margin: auto;
-  
+    gap: 4rem;
+  }
+  .card-1, .card-2, .card-3, .card-4{
 
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:2rem;
 
   }
-  .about :nth-child(5){
-    color: rgba(205, 193, 193, 0.804);
-  }
-  
 }

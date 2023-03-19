@@ -11,13 +11,13 @@ body{
     align-items: center;
     height: 60px;
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
-   width: 95vw;
+   width: 98vw;
 
    top:0;
 
     color: white;
-    border-radius: 5px;
-    background-color: #17056ec4;
+
+    background-color: #190d6bc3;
 }
 .navbar .logo{
     display: flex;

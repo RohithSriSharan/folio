@@ -5,8 +5,6 @@
   width: 95vw;
   flex-wrap: wrap;
   margin: auto;
-  
-
 }
 
 
@@ -34,6 +32,7 @@
   margin-left: 2px;
 
   background-color: rgba(54, 7, 130, 0.626);
+
   color: white;
 }
 
@@ -98,6 +97,7 @@
   }
  .skills .icons{
   display: flex;
+  flex-wrap: wrap;
   margin-left: 400px;
   gap: 2rem;
 
@@ -131,7 +131,7 @@
   font-weight: bolder;
   color: rgba(20, 246, 246, 0.774);
   margin-top: -10px;
-
+ 
 }
 
 
