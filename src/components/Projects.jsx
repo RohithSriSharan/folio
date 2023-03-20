@@ -2,10 +2,13 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import img from '../assets/icons/css.svg'
 import './Projects.css'
+import Tilt from 'react-tilt'
 
 const Projects = () => {
   return (
+    
     <div className='projects' id='Projects'> 
+    
    <div className='title'> <h1>Projects</h1></div>
    <div className='project-cards'>
    <ProjectCard
@@ -16,7 +19,9 @@ const Projects = () => {
 
  
 </div>
+
     </div>
+    
   )
 }
 

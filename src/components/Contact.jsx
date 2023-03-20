@@ -24,7 +24,7 @@ const Contact = () => {
     <div id='Contact' className='contact'>
         <div className='planet'>
           
-         <PlanetCanvas/>
+        <PlanetCanvas/> 
          
         </div>
        
