@@ -1,6 +1,7 @@
 body{
     background-color: #090527;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 li{
     font-family: 'Poppins', sans-serif;
@@ -8,6 +9,7 @@ li{
 
 .navbar{
     display: flex;
+
 
     
     justify-content: space-between;

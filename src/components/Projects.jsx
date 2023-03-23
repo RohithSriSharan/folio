@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import img from '../assets/icons/css.svg'
 import './Projects.css'
-import Tilt from 'react-tilt'
+
 
 const Projects = () => {
   return (
@@ -12,17 +12,14 @@ const Projects = () => {
    <div className='title'> <h1>Projects</h1></div>
    <div className='project-cards'>
    <ProjectCard
-      gitRepoUrl = "https://www.youtube.com/watch?v=dkaUwGC4XsU"
+      gitRepoUrl = "https://github.com/RohithSriSharan/dalle_mern_web_app.git"
+      liveUrl=""
       image = {img}
-      title = "Project Title"
-      description ="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget orci ac mauris rhoncus vestibulum vitae vitae lorem. Duis sit amet felis in nulla interdum semper."
+      title = "Dalle-E Clone"
+      description ="A MERN application that allows you to generate unique and personalized images using OpenAI's DALL-E API.
+       With an intuitive user interface, you can easily customize and visualize your own image. "
     />
-    <ProjectCard
-      gitRepoUrl = "https://www.youtube.com/watch?v=dkaUwGC4XsU"
-      image = {img}
-      title = "Project Title"
-      description ="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget orci ac mauris rhoncus vestibulum vitae vitae lorem. Duis sit amet felis in nulla interdum semper."
-    />
+   
 
  
 </div>

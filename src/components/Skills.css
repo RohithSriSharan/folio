@@ -15,12 +15,13 @@
   flex-wrap: wrap;
   justify-content: flex-start;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
 
   color: rgb(160, 167, 173);
   margin-top: -10px;
  text-align: justify;
+ line-height: 1.5;
 
 
 
@@ -132,7 +133,7 @@
   width: 70vw;
   flex-wrap: wrap;
   justify-content: flex-start;
-  font-family: 'Poppins', sans-serif;  
+  font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
 
   margin-top: -10px;

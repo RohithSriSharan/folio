@@ -34,6 +34,7 @@ display: block;
         -webkit-background-clip: text;
       background-position: 10 0;
       animation: back 19s linear infinite;
+      font-family: 'Days One', sans-serif;
 }
 @keyframes back {
     100%{
@@ -45,7 +46,7 @@ display: block;
    
     width: 80vw;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
    margin: auto;
     margin-top: -50px;
@@ -102,7 +103,7 @@ display: block;
     .hero-left h2{
         display: flex;
         position: absolute;
-        font-size: 60px;
+        font-size: 50px;
         margin-bottom: 90px;
         margin-left: 110px;
         color: rgba(168, 175, 182, 0.774);
@@ -113,7 +114,8 @@ display: block;
         position: absolute;
         color: transparent;
         margin-top: 250px;
-        font-size: 160px;
+        margin-left: -60px;
+        font-size: 140px;
         /* background-image: url(/src/assets/Frame\ 1.png); */
         background-color: aqua;
         -webkit-background-clip: text;
@@ -129,8 +131,7 @@ display: block;
         
       }
     .hero-top p{
-        font-family: 'Poppins', sans-serif;
-       
+        font-family: 'Montserrat', sans-serif;       
         text-align: justify;
         margin-top: 380px;
         margin-left: 30px;

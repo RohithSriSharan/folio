@@ -3,7 +3,10 @@ import './Contact.css'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import PlanetCanvas from '../canvas/Planet';
-import { Plane } from '@react-three/drei';
+
+
+
+
 
 
 const Contact = () => {

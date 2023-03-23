@@ -83,6 +83,7 @@ img{
  
 .card-4{
   border: 2px solid rgba(131, 13, 60, 0.719);
+  text-align: center;
   }
 
 
@@ -93,11 +94,13 @@ img{
   }
   .about .about-me{
     display: flex;
+ 
      
   }
   .about .about-me h1{
     display: flex;
-    width:90vw  }
+    width:90vw; 
+    margin-left: -50px;}
 
     .about .about-me .content p{
     display: flex;
@@ -107,7 +110,8 @@ img{
      font-size: 18px;
      text-align: justify;
      font-weight: bold;
- 
+     font-family: 'Montserrat', sans-serif;
+     
      padding: 10px;
      margin: auto;
 

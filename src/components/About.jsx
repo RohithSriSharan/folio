@@ -4,7 +4,9 @@ import backend from '../assets/about/backend.png'
 import creator from '../assets/about/creator.png'
 import mobile from '../assets/about/mobile.png'
 import web from '../assets/about/web.png'
+
 const About = () => {
+
   return (
     
     <div id='About'>
