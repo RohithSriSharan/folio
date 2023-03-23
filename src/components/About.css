@@ -7,7 +7,8 @@
     align-items: center;
     width: 90vw;
     border-radius:10px ;
-    margin: 2px;
+    margin: auto;
+
    
 
 
@@ -18,21 +19,38 @@
   flex-direction: column;
   justify-content: center;
   margin: auto; 
-}
-.about .about-me p{
-  padding: 15px;
-  font-size: large;
+  
 }
 
+.title h1{
+  background: linear-gradient(180deg,rgb(71, 247, 241), rgb(204, 0, 255));
+  font-family: 'Montserrat Subrayada', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+ 
+}
+.about .about-me .content p{
+  width: 90vw;
+  font-size: large;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  line-height: 2;
+  font-weight: bold;
+  color: rgb(175, 184, 184);
+  margin: auto;
+  
+
+}
 img{
   width: 50px;
   height: 50px;
 }
 .cards{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  
   margin: auto;
   gap: 1rem;
 }
@@ -42,12 +60,14 @@ img{
   width: 200px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap:2rem;
   background-color: rgba(6, 6, 79, 0.804);
   border-radius: 15px;
+ 
 }
 .card-1{
   border: 2px solid rgba(10, 133, 142, 0.772);
@@ -58,7 +78,9 @@ img{
   }
 .card-3{
   border: 2px solid rgba(7, 105, 64, 0.733);
+  text-align: center;
   }
+ 
 .card-4{
   border: 2px solid rgba(131, 13, 60, 0.719);
   }
@@ -77,10 +99,18 @@ img{
     display: flex;
     width:90vw  }
 
-  .about .about-me p{
+    .about .about-me .content p{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60vw;
-     font-size: 25px;
+     font-size: 18px;
+     text-align: justify;
+     font-weight: bold;
+ 
+     padding: 10px;
+     margin: auto;
+
   }
   .cards{
     display: flex;
@@ -90,6 +120,7 @@ img{
     align-items: center;
     margin: auto;
     gap: 4rem;
+    margin-top: 30px;
   }
   .card-1, .card-2, .card-3, .card-4{
 
@@ -102,4 +133,5 @@ img{
     gap:2rem;
 
   }
+  
 }

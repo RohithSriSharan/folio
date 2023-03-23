@@ -5,6 +5,7 @@
   width: 95vw;
   flex-wrap: wrap;
   margin: auto;
+  
 }
 
 
@@ -12,12 +13,15 @@
   display: flex;
   width: 95vw;
   flex-wrap: wrap;
-  justify-content: start;
-  font-family: 'Noto Serif Lao', serif;
+  justify-content: flex-start;
+
+  font-family: 'Poppins', sans-serif;
   font-weight: bolder;
-  color: rgba(20, 246, 246, 0.774);
+
+  color: rgb(160, 167, 173);
   margin-top: -10px;
- 
+ text-align: justify;
+
 
 
 }
@@ -28,7 +32,7 @@
   width: 95vw;
   border: 2px solid rgba(115, 19, 159, 0.836);
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 2px;
 
   background-color: rgba(54, 7, 130, 0.626);
@@ -41,7 +45,7 @@
 
   align-items: center;
   border: 2px solid rgba(115, 19, 159, 0.836);
-  margin-top: 10px;
+  margin-top: 30px;
   width: 95vw;
 
   margin-left: 2px;
@@ -57,7 +61,7 @@
 
   align-items: center;
   border: 2px solid rgba(115, 19, 159, 0.836);
-  margin-top: 10px;
+  margin-top: 30px;
   width: 95vw;
 
   margin-left: 2px;
@@ -124,13 +128,15 @@
 }
 .skills p{
   display: flex;
+  font-weight: bolder;
   width: 70vw;
   flex-wrap: wrap;
-  justify-content: start;
-  font-family: 'Noto Serif Lao', serif;
+  justify-content: flex-start;
+  font-family: 'Poppins', sans-serif;  
   font-weight: bolder;
-  color: rgba(20, 246, 246, 0.774);
+
   margin-top: -10px;
+  text-align: justify;
  
 }
 

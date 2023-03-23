@@ -7,6 +7,7 @@
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 .contact{
     display: block;
@@ -33,7 +34,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-   
+  
     
 }
 
@@ -50,16 +51,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     
    
 }
 .contact .contact-right .greetings p{
-    color: rgba(20, 246, 246, 0.491);
+    color: rgb(188, 196, 202);
     font-weight: bolder;
     width: 80vw;
-    font-size: large;
-    font-family: 'Noto Serif Lao', serif;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+
    
+   
+}
+.contact .contact-right .greetings h1{
+    background: linear-gradient(190deg,rgb(0, 255, 136),rgb(0, 242, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
 }
 .contact .contact-right .forms form{
     display: flex;
@@ -67,6 +78,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    margin-bottom: 20px;
 
 }
 .contact .contact-right .forms form input{
@@ -84,14 +96,14 @@
   
 }
 .contact .contact-right .forms form button{
-    height: 35px;
     width: 100px;
-    color: white;
-    background-color: black;
-    font-weight: bolder;
-    border-bottom: 2px solid aqua;
-    border-radius: 6px;
-    border-right: 2px solid aqua;
+    height: 40px;
+    color:white;
+    background: linear-gradient(108deg, rgb(58, 177, 232), rgb(176, 66, 220));
+    font-weight: bold;
+    border-radius:8px ;
+    font-family: 'Poppins', sans-serif;
+
 }
 .contact .contact-right .forms form button:hover{
     cursor: pointer;
@@ -103,7 +115,7 @@
     
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
     .contact{
         display: flex;
         width: 95vw;
@@ -127,8 +139,7 @@
         flex: 1;
         width: 700px;
         height: 700px;
-        /* width: 100%;
-        height: 100%; */
+      
       
         justify-content: center;
         align-items: center;
@@ -162,12 +173,12 @@
         resize: none;
     }
     .contact .contact-right .forms form button{
-        height: 35px;
-        width: 100px;
-        background-color: rgba(25, 25, 102, 0.731);
+        height: 50px;
+        width: 150px;
+       
     }
     .contact .contact-right .greetings p{
-        color: rgba(14, 180, 209, 0.879);
+        color: rgb(188, 196, 202);
         font-weight: bolder;
         width: 500px;
         font-size: large;
@@ -180,5 +191,11 @@
         background-color: #290a4a86;
         padding: 20px;
         border-radius: 20px;
+    }
+    .contact .contact-right .forms form button:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+        background: linear-gradient(108deg, rgba(58, 177, 232, 0.635), rgba(176, 66, 220, 0.708));
+       
     }
 }

@@ -42,9 +42,9 @@ const Skills = () => {
   return (
     
     <div className='skills' id='Skills'> 
-        <h1> Skills </h1>
+       <div className='title'><h1> Skills </h1></div> 
         <p>Driven by a passion for innovation, I am dedicated to expanding my skillset and exploring 
-        emerging technologies to deliver cutting-edge solutions that the ever evolving needs ob bussiness and their customers </p>
+        emerging technologies to deliver cutting-edge solutions that the ever evolving needs of bussiness and their customers </p>
 
       <div className='oop'>
        <div className='text'  onClick={handleShowOop}> <h2><CgChevronRight/>  <FaCode/> OOP</h2></div>

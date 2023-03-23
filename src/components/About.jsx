@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import Tilt from 'react-tilt';
 import backend from '../assets/about/backend.png'
 import creator from '../assets/about/creator.png'
 import mobile from '../assets/about/mobile.png'
@@ -10,17 +9,27 @@ const About = () => {
     
     <div id='About'>
     <div className='about'>
-      <div className='about-me'>
-        <div className='title'><h1>About</h1></div>
-        <div className='about-me'><p> As a passionate software developer, I am constantly pushing myself to learn and grow in my field.
-        With a keen eye for detail and commitment to excellence, I strive to create innovative and impactful solutions to complex problems.
-        With expertise in languages such as Java, Python and JavaScript, I am well-versed in a variety of programming paradigms and frameworks.
-        Whether working on front-end development, back-end infrastructure, or full-stack applications, I take a creative approach to every project I tackle.
-        Above all, I am driven by a love for what I do. Whether tinkering with new technologies in my spare time or collaborating with other developers on 
-        exiting new projects, I am always seeking to expand my horizons and explore new opportunities in the world of software development.
-        </p></div>
-        
-      </div>
+        <div className='about-me'>
+          <div className='title'><h1>About</h1></div>
+
+            <div className='content'><p> 
+            As a passionate software developer, I am constantly pushing myself to learn and grow in my field.
+            With a keen eye for detail and commitment to excellence,I strive to create innovative and impactful solutions 
+            to complex problems.
+            With expertise in languages such as Python, Java, Javascript and Typescript I am well versed in a varaiety of programming paradigms and frameworks.
+            
+            </p>
+            <p>Whether working in front-end , back-end development infrastructure, or full-stack applications, I take a creative approach to every project I tackle.</p>
+
+            <p>
+              Above all, I am driven by a love for what I do. Whether tinkering with new technologies in my spare time or collaborating with other developers on exiting new projects,
+              I am always seeking to expand my horizons and explore new opportunities in the world of software development.
+            
+            </p>
+            
+            </div>
+          
+        </div>
     
       <div className='cards'>
 

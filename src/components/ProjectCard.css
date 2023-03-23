@@ -3,30 +3,29 @@
     flex-wrap: wrap;
 
     width: 350px;
-    height: 400px;
+    height: 450px;
     justify-content: center;
     margin-top: 20px;
 
- 
+  
   
 }
-.project-card .project-card-icon{
-    display: flex;
-    position: absolute;
-    right: 80px;
-    margin-top: 200px;
-    scale: 2;
-    gap: 1rem;
-    z-index: 9999
+
+.project-card-icon{
+    display: none;
 }
 
-.project-card .project-card-icon :nth-child(1){
- 
-  border-radius: 100px;
-}.project-card .project-card-icon :nth-child(2){
- 
-    border-radius:2px;
-  }
+.project-card:hover .project-card-icon{
+    display: flex;
+    position: absolute;
+    right: 95px;
+    margin-top: 220px;
+    scale: 2;
+    gap: 1rem;
+   
+}
+
+
 
 
 .project-card .project-card-image{
@@ -37,8 +36,8 @@
     align-items: center;
     width:260px ;
     height: 200px;
-   margin-bottom: 350px;
-   background-color: black;
+   margin-bottom: 500px;
+
    border-radius:10px ;
 }
 .project-card .project-card-info{
@@ -47,23 +46,26 @@
     flex-direction: column;
     justify-content: center;
     width: 300px;
-    height: 300px;
+    height: 350px;
     margin: auto;
     border: 1px solid;
     margin-bottom: 0px;
     border-radius: 10px;
     background-color: #28173aa2;
-        border: 2px solid #5f0b6cd9 
+    border: 2px solid #5f0b6cd9 
 
 }
 .project-card .project-card-info h1{
     margin-left: 10px;
-    margin-top: 90px;
+    margin-top: 130px;
 }
 .project-card .project-card-info p{
     margin-top: -10px;
     margin-left: 10px;
     font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+  letter-spacing: -0.05em;
     
 }
 
@@ -91,6 +93,7 @@
         margin-top: 20px;
         scale: 2.5;
         gap: 1rem;
+        
         
     }
     .project-card .project-card-image{
