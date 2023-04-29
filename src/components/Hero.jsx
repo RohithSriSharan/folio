@@ -1,24 +1,26 @@
 import React from 'react'
 import './Hero.css'
+import { GrLinkedin } from 'react-icons/gr';
+import { AiFillGithub } from 'react-icons/ai';
 
 import AbstractCanvas from '../canvas/Abstract'
-import { motion } from 'framer-motion'
 
+import Resume from '../assets/Rohith_JANGAM.pdf'
 const Hero = () => {
-  return (
+  
+
+  return (  
     <div className='hero' >
         <div className='hero-left hero-top'>
            
             <h2
               >Hi I'm,</h2>
-            <h1
-              
-                >ROHITH</h1>
+            <h1>ROHITH</h1>
             <p
               >An aspiring developer driven to push boundaries and develop creative solutions to comeplex problems.</p>
-            <motion.button
-           
-                >Download Resume</motion.button>
+              <a href={Resume} download='rohith_jangam.pdf' ><button>Download Resume</button> </a>
+                <a href="https://www.linkedin.com/in/rohith-sri-sharan-jangam-95b58a15a" target='_blank' rel='noopener noreferrer' className='linkedin'><GrLinkedin/></a>
+              <a href="https://github.com/RohithSriSharan" target='_blank' rel='noopener noreferrer' className='github'><AiFillGithub/></a>
         </div>
         
         <div 

@@ -1,8 +1,9 @@
 import React from 'react'
 import './Contact.css'
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import PlanetCanvas from '../canvas/Planet';
+import { TiTick } from 'react-icons/ti';
 
 
 
@@ -10,6 +11,9 @@ import PlanetCanvas from '../canvas/Planet';
 
 
 const Contact = () => {
+
+  const [sent, setSent] = useState(false)
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,12 +21,14 @@ const Contact = () => {
     emailjs.sendForm("service_a7x3eax", "template_hd5v90s", form.current, "dWbEzpT5kHna-cdiL")
       .then((result) => {
           console.log(result.text);
+          setSent(true)
         
       }, (error) => {
           console.log(error.text);
+          
       });
   };
-  console.log(process.env.CONTACT_SECRET)
+  
   return (
     <div id='Contact' className='contact'>
         <div className='planet'>
@@ -37,16 +43,16 @@ const Contact = () => {
             <p>Got a project in mind?, feedback or just wanna say hi?
             I'd love to hear from you! Feel free to drop a message.  </p>
           </div>
-          <div className='forms'>
-            <form ref={form} onSubmit={sendEmail}>
-              <input type="text" name='username' placeholder='Your name'></input>
-              <input type="email" name='user_email' placeholder='Email'></input>
-              <textarea type="text" name="message" placeholder='Your message'></textarea>
-              <button>Submit</button>
-         
+          <div className='forms'  >
+            <form ref={form} onSubmit={sendEmail} >
+              <input  type="text" name='username' placeholder='Your name'  ></input>
+              <input type="email" name='user_email' placeholder='Email' required></input>
+              <textarea type="text" name="message" placeholder='Your message' required></textarea>
+              <button >Submit</button>
+              {sent && <p className='mail-alert'><span className='tick'><TiTick/></span><span className='sent-alert' >Your message has been sent</span></p> }
             </form>
          </div>
-        
+      
         </div>
         </div>
           

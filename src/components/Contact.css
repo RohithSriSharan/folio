@@ -115,6 +115,26 @@
     
 }
 
+.mail-alert{
+    background-color: rgba(57, 155, 57, 0.826);
+    border: 1px solid;
+    padding: 6px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mail-alert .tick{
+    
+    scale: 1.5;
+    padding: 2px;
+    background-color: rgba(78, 163, 33, 0.947);
+    
+}
+.mail-alert .sent-alert{
+    margin-left: 10px;
+}
+
 @media screen and (min-width: 1440px) {
     .contact{
         display: flex;

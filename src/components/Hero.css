@@ -61,6 +61,7 @@ display: block;
     width: 95vw;
     height: 400px;
     margin-top: -10px;
+
     
 }
 .hero-top button{
@@ -72,10 +73,32 @@ display: block;
     background: linear-gradient(108deg, rgb(58, 177, 232), rgb(176, 66, 220));
     font-weight: bold;
     border-radius:6px ;
+    
+}
+.hero-top a{
+    text-decoration: none;
 }
 
-
-
+.linkedin{
+    display: flex;
+    scale: 3;
+    margin-top: 25px;
+    margin-left: -70px;
+    background: linear-gradient(108deg, rgba(58, 177, 232, 0.635), rgba(176, 66, 220, 0.708));
+    color: #090527 !important;
+    
+   
+}
+.github{
+    display: flex;
+    scale: 3;
+    margin-left: 70px;
+    margin-top: -15px;
+    background: linear-gradient(108deg, rgba(58, 177, 232, 0.635), rgba(176, 66, 220, 0.708));
+    border-radius: 100%;
+    color: #090527 !important;
+   
+}
 
 @media screen and (min-width:1024px) {
 
@@ -142,7 +165,7 @@ display: block;
     }
     .hero-left button{
         display: flex;
-        margin-left: -470px;
+        margin-left: -350px;
         
         justify-content: center;
         align-items: center;
@@ -156,6 +179,32 @@ display: block;
         transform: translateY(-5px);
         background: linear-gradient(108deg, rgba(58, 177, 232, 0.635), rgba(176, 66, 220, 0.708));
        
+    }
+    .linkedin{
+        display: flex;
+        scale: 2.8;
+        margin-left: -200px;
+        margin-top: -35px;
+        background: linear-gradient(108deg, rgba(58, 177, 232, 0.635), rgba(176, 66, 220, 0.708));
+        color: #090527 !important;
+        
+       
+    }
+    .github{
+        display: flex;
+        scale: 3;
+        margin-left: -80px;
+        margin-top: -15px;
+        background: linear-gradient(108deg, rgba(58, 177, 232, 0.635), rgba(176, 66, 220, 0.708));
+        border-radius: 100%;
+        color: #090527 !important;
+       
+    }
+    .linkedin:hover{
+        transform: translateY(-2px);
+    }
+    .github:hover{
+        transform: translateY(-2px);
     }
     
 }

@@ -22,7 +22,7 @@ const ProjectCard = (props) => {
         
           
       </div>  
-      <div className='project-card-image'><img src={props.image}></img></div>
+      <div className='project-card-image'><img src={props.image} alt='project_png'></img></div>
     
       
 
