@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard'
 import './Projects.css'
 import dalle from '../assets/dall-e_clone.png'
 import ecommerce from '../assets/ecommerce.png'
+import threads from '../assets/threads.png'
 const Projects = () => {
   return (
     
@@ -27,6 +28,14 @@ const Projects = () => {
       title = "A Full Stack ECommerce Website"
       description ="A Python and React Full stack E-commerce website under development. Want to see the progress?
       Feel free to head to my git hub repo. "
+    />
+
+    <ProjectCard
+      gitRepoUrl = "https://github.com/RohithSriSharan/sayIt.git"
+      liveUrl= "https://say-it-tner-g7r7c2krm-rohithsrisharan.vercel.app/"
+      image = {threads}
+      title = "Threads Clone"
+      description ="A comprehensive Threads Clone developed with Next.js, MongoDB, and Clerk for user and state management."
     />
 
  
